@@ -1,8 +1,12 @@
 name: gddns_updater_cli
 description: A command-line application for updating Google Domains Dynamic DNS.
-version: 1.0.0
+version: 1.0.1
 homepage: https://ra1no3o.dev/
 repository: https://github.com/RA1NO3O/gddns_updater_cli
+platforms:
+  windows:
+  macos:
+  linux:
 
 environment:
   sdk: '>=2.18.2 <4.0.0'

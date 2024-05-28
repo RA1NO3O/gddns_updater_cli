@@ -8,7 +8,7 @@ import 'package:http/http.dart' as http;
 
 void main(List<String> args) async {
   final parser = ArgParser()
-    ..addFlag('help', abbr: 'h', help: '帮助')
+    ..addFlag('help', abbr: 'h', help: '输出这条帮助信息', negatable: false)
     ..addOption('u4', help: 'ipv4用户名')
     ..addOption('p4', help: 'ipv4密码')
     ..addOption('d4', help: 'ipv4域名')

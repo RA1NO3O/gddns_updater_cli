@@ -15,7 +15,7 @@
 ## 编译指令
 
 ```shell
-dart compile exe lib/main.dart -o build/gddns_updater.exe
+dart compile exe lib/main.dart -o build/gddns_updater
 ```
-
+Windows平台下请添加`.exe`扩展名.
 > PS: 可能需要先创建build目录。

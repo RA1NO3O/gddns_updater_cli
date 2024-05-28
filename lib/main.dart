@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:args/args.dart';
-import 'package:gddns_updater/zxinc_resp.dart';
+import 'package:gddns_updater_cli/zxinc_resp.dart';
 import 'package:http/http.dart' as http;
 
 void main(List<String> args) async {
